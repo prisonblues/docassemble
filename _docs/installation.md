@@ -833,7 +833,7 @@ Directory service.
 * Add "Microsoft Graph" as one of the APIs.
 * Under "delegated permissions," select the following:
     * Sign users in
-    * Access user's data anytime
+    * Maintain access to data you have given it access to
     * View users' email address
     * View users' basic profile
 * Press Save.
@@ -995,7 +995,7 @@ user's [GitHub] account.  These SSH keys are stored in the same
 directory in the Playground as the files for [Playground] packages, so
 they will appear in [Google Drive] or [OneDrive] if [Google Drive
 synchronization] or [OneDrive synchronization] is enabled, and they
-will be stored in the cloud if cloud [data storage] is enabled.  Using
+will be stored in other people's computers if cloud [data storage] is enabled.  Using
 the [GitHub API], **docassemble** stores the public key in the user's
 [GitHub] account, using the name of the application as specified in
 the [configuration] as the value of [`appname`] (which defaults to
@@ -1098,7 +1098,7 @@ sudo systemctl disable redis.service
 If [supervisor] controls [PostgreSQL] and [Redis], then when
 [supervisor] stops, it will make a backup of the [PostgreSQL] database
 and the [Redis] database in `/usr/share/docassemble/backup/` (or in
-the cloud).
+other people's computers).
 
 Alternatively, you can allow [systemd] to launch [PostgreSQL],
 [Redis], and [RabbitMQ], but in this case you should make sure that
