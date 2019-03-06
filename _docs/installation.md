@@ -833,7 +833,7 @@ Directory service.
 * Add "Microsoft Graph" as one of the APIs.
 * Under "delegated permissions," select the following:
     * Sign users in
-    * Access user's data anytime
+    * Maintain access to data you have given it access to
     * View users' email address
     * View users' basic profile
 * Press Save.
